@@ -26,7 +26,7 @@ from drf_spectacular.views import (
 
 urlpatterns = [
 
-    path('admin/', admin.site.urls),
+    path('api/admin/', admin.site.urls),
 
     # all backend endpoints are now rooted at /api/
     path('api/accounts/', include('accounts.urls')),
